@@ -1,0 +1,5 @@
+ijson
+jupyterlab
+openai
+pydantic>=2
+python-dotenv
