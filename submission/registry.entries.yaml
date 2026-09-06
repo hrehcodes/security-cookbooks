@@ -1,0 +1,25 @@
+# Proposed additions to openai/openai-cookbook/registry.yaml.
+# hreh-oai already exists in upstream authors.yaml. Paths/slugs await maintainer review.
+- title: Investigating real honeypot sessions with traceable evidence
+  path: examples/security/evidence_grounded_honeypot_investigation.ipynb
+  slug: evidence-grounded-honeypot-investigation
+  description: Use read-only function calls to investigate four honeypot sessions, cite sanitized events, and check an injected instruction without executing captured commands.
+  date: '2026-09-06'
+  authors:
+    - hreh-oai
+  tags:
+    - security
+    - responses
+    - tools
+
+- title: Streaming incident-response triage with GPT-6 Astra
+  path: examples/security/streaming_incident_response_triage_with_gpt_6.ipynb
+  slug: streaming-incident-response-triage
+  description: Turn synthetic incident telemetry into a structured assessment and short streamed update, check citations, and record a simulated human-review decision.
+  date: '2026-09-06'
+  authors:
+    - hreh-oai
+  tags:
+    - security
+    - responses
+    - text

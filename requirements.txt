@@ -1,5 +1,9 @@
-ijson
-jupyterlab
-openai
-pydantic>=2
-python-dotenv
+# Direct dependencies tested with Python 3.12. Install JupyterLab separately if wanted.
+ijson==3.5.1
+openai==2.43.0
+pydantic==2.13.4
+python-dotenv==1.2.2
+ipython==8.22.1
+ipykernel==6.29.3
+nbformat==5.10.4
+nbclient==0.10.4
